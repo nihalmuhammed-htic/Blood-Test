@@ -1,31 +1,4 @@
-// Biological Parameters Data
-
-const biologicalData = [
-  {
-    sampleID: "S001",
-    glucose: 120.5,
-    lactate: 2.3,
-    pH: 7.4
-  },
-  {
-    sampleID: "S002",
-    glucose: 130.2,
-    lactate: 2.8,
-    pH: 7.2
-  },
-  {
-    sampleID: "S003",
-    glucose: 110.8,
-    lactate: 1.9,
-    pH: 7.5
-  }
-];
-
-// Display data
-biologicalData.forEach(sample => {
-  console.log("Sample ID:", sample.sampleID);
-  console.log("Glucose:", sample.glucose);
-  console.log("Lactate:", sample.lactate);
-  console.log("pH:", sample.pH);
-  console.log("-------------------");
-});
+Sample_ID,Glucose,Lactate,pH
+S1,120,2.1,7.2
+S2,110,1.8,7.4
+S3,140,3.0,7.1
